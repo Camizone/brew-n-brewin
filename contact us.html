@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREW'N BREWIN</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat'
+        }
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat';
+            overflow: auto;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url(images/background.jpg) center/cover no-repeat;                 
+            filter: brightness(70%);
+            z-index: -1;
+        }
+        .a-overall {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .a {
+            font-family: 'Montserrat';
+            font-size: 19px;
+            z-index: 3;
+        }
+
+        .a a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px;
+            transition: color 0.3s;
+        }
+
+        .a a:hover {
+            text-decoration: underline;
+            color: orange;
+        }
+
+        h1{
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 95px;
+            color: white;
+            text-align: center;
+            letter-spacing: 10px;
+            padding: 40px;
+            margin: 0;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            z-index: 3;
+        }
+
+        .logo {
+            width: 240px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+            color: #3e2723;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            color: #6d4c41;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+        }
+
+        .social-links img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+
+        .social-links a:hover {
+            color: #ddd;
+        }
+        .menu-text {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 25px;
+            color: white;
+            margin-right: 20px;
+        }
+        .social-links-son:hover{
+            text-decoration: underline;
+            transform: scale(0.96);
+            color: orange;
+        }
+        .map {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 450px;
+            margin-top: 20px;
+            overflow: auto;
+        }
+
+        .the-map {
+            width: 40%;
+            height: 40%;
+            border: 0;
+            position: fixed;
+            margin-top: 300px;
+            border-radius: 20px;
+        }
+
+        .map-text {
+            color:   black;
+            text-align: center;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 600;
+            font-size: 25px;
+            z-index: 2;
+            background: white;
+            border-radius: 99px;
+            width: 300px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="a-overall">
+            <div class="logo-container">
+                <a href="index.html" target="_self">
+                    <img class="logo" src="images/logo.png" alt="BnB Logo">
+                </a>
+                <div class="menu-text">CONTACT US</div>
+            </div>
+            <div class="a">
+                <a href="index.html" target="_self"> HOME </a>
+                <a href="menu.html" target="_self"> MENU </a>
+                <a href="about us.html" target="_self"> ABOUT US </a>
+                <a href="contact us.html" target="_self"> CONTACT US </a>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    <div class="social-links">
+        <a class="social-links-son" href="https://www.facebook.com/carlos.miguel.5494360" target="_blank">
+            <img src="staff/cami.jpg" alt="Carlos Miguel">
+            Cami Morillo
+        </a>
+        <a class="social-links-son" href="https://www.facebook.com/ryza.flores.15?mibextid=LQQJ4d" target="_blank">
+            <img src="staff/ryza.jpg" alt="Ryza Flores">
+            Ryza Flores
+        </a>
+        <a class="social-links-son" href="https://www.facebook.com/blessy.solas?mibextid=9R9pXO" target="_blank">
+            <img src="staff/blessy.jpg" alt="Blessy Solas">
+            Blessy Solas
+        </a>
+        <a class="social-links-son" href="https://www.facebook.com/kgutierrezxx?mibextid=2JQ9oc" target="_blank">
+            <img src="staff/kacey.jpg" alt="K Gutierrez">
+            Kacey Gutierrez
+        </a>
+    </div>
+    <div class="map">
+        <p class="map-text">Where you can find us</p>
+        <iframe class="the-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.542168273213!2d121.05885012590466!3d14.625137476473885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b796aecb8763%3A0xaa026ea7350f82e7!2sTechnological%20Institute%20of%20the%20Philippines%20-%20Quezon%20City!5e0!3m2!1sen!2sph!4v1701776301309!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+</body>
+
+</html>

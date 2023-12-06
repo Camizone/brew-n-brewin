@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>About Us</title>
+    <script src="store.js">async</script>
+</head>
+
+<body class="">
+    <div class="container">
+    <div class="nav">
+        <header>
+        <div class="a-overall">
+            <div class="logo-container">
+                <a href="index.html" target="_self">
+                    <img class="logo" src="images/logo.png" alt="BnB Logo">
+                </a>
+                <div class="menu-text">Menu</div>
+                <div class="icon-cart"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                  </svg> <span>0</span>
+                </div>
+            </div>
+            <div class="a">
+                <a href="index.html" target="_self"> HOME </a>
+                <a href="menu.html" target="_self"> MENU </a>
+                <a href="about us.html" target="_self"> ABOUT US </a>
+                <a href="contact us.html" target="_self"> CONTACT US </a>
+            </div>
+        </div>
+        </header>
+    </div>
+
+    <h1> Menu </h1>
+        <div class="tabs">
+            <input type="radio" id="radio-1" name="tabs" checked />
+            <label class="tab" for="radio-1">Hot Coffee</label>
+
+            <input type="radio" id="radio-2" name="tabs" />
+            <label class="tab" for="radio-2">Cold Coffee</label>
+
+            <input type="radio" id="radio-3" name="tabs" />
+            <label class="tab" for="radio-3">Snacks</label>
+
+            <input type="radio" id="radio-4" name="tabs" />
+            <label class="tab" for="radio-4">Dessert</label>
+
+            <span class="glider"></span>
+        </div>
+        <div id="tabContents">
+            <!-- Content for Hot Coffee tab -->
+            <div id="tabContent-1" class="tab-content active">
+                <p class="shop-tab-description">These are the available Products for Hot Coffee.</p>
+                <div class="gallery">
+					<div class="content shop-item">
+						<img class="shop-item-image" src="images/cappucino.jpg">
+						<h3 class="shop-item-title">Cappuccino</h3>
+						<p> A hot drink that is loved by many and hated
+							by little, the absolute ideal drink for hot coffee lovers
+							everywhere. 
+						</p>
+                        <div class="shop-item-details">
+						<h6 class="shop-item-price">₱112</h6>
+						<ul>
+                            <li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star"></i></li>
+						</ul>
+						<button class="shop-item-button">Add to Cart</button>
+                        </div>
+					</div>
+					
+					<div class="content shop-item">
+						<img class="shop-item-image" src="images/cafelatte.jpg">
+						<h3 class="shop-item-title">Cafe Latte</h3>
+						<p> A favorite cause of its very easy
+							consumption. The Beans were imported from the fields of
+							U.P. Diliman grown by student farmers and its local flavor
+							makes the taste so savory. A definite must buy for rare
+							coffee goers.
+						</p>
+                        <div class="shop-item-details">
+						<h6 class="shop-item-price">₱169</h6>
+						<ul>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+						</ul>
+						<button class="shop-item-button">Add to Cart</button>
+                        </div>
+					</div>
+
+					<div class="content shop-item">
+						<img class="shop-item-image" src="images/redvelvetlatte.jpg">
+						<h3 class="shop-item-title">Red Velvet Latte</h3>
+						<p> This brew is very special since it was
+							imported from Velvet Coffee Roasters™ a bean selling
+							company from New Zealand. It's a must buy for rich
+							business men and rich teens looking to flex on others. 
+						</p>
+                        <div class="shop-item-details">
+						<h6 class="shop-item-price">₱282</h6>
+						<ul>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star"></i></li>
+						</ul>
+						<button class="shop-item-button">Add to Cart</button>
+                        </div>
+					</div>
+
+					<div class="content shop-item">
+						<img class="shop-item-image" src="images/flatwhite.jpg">
+						<h3 class="shop-item-title">Flat White</h3>
+						<p> A Latte Alternative for those who would want
+							something different for a cold monday morning it is a given
+							you would want more milk in your latte thus this beautiful
+							drinks existence. 
+						</p>
+                        <div class="shop-item-details">
+						<h6 class="shop-item-price">₱112</h6>
+						<ul>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star"></i></li>
+						</ul>
+						<button class="shop-item-button">Add to Cart</button>
+                        </div>
+					</div>
+				</div>
+                <div class="gallery">
+					<div class="content shop-item">
+						<img class="shop-item-image" src="images/cinnamoncoffee.jpg">
+						<h3 class="shop-item-title">Cinnamon Coffee</h3>
+						<p> Cinnamon Coffee was one of the first that
+                            Brew 'n Brewin has thought of as a Hot Coffee menu and
+                            its because of that it has become a classic among the
+                            customers
+						</p>
+                        <div class="shop-item-details">
+						<h6 class="shop-item-price">₱226</h6>
+						<ul>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star"></i></li>
+						</ul>
+						<button class="shop-item-button">Add to Cart</button>
+                        </div>
+					</div>
+					
+					<div class="content shop-item">
+						<img class="shop-item-image" src="images/espresso.jpg">
+						<h3 class="shop-item-title">Espresso</h3>
+						<p> The base for any of our previous hot coffee
+                            ingredients the Espresso is a perfect drink for people who
+                            don't need any flair on their drink. A more traditional
+                            approach if you will have a good coffee for them.
+						</p>
+                        <div class="shop-item-details">
+						<h6 class="shop-item-price">₱112</h6>
+						<ul>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+						</ul>
+						<button class="shop-item-button">Add to Cart</button>
+                        </div>
+					</div>
+
+					<div class="content shop-item">
+						<img class="shop-item-image" src="images/vanillalatte.png">
+						<h3 class="shop-item-title">Vanilla Latte</h3>
+						<p> One of the classic alternatives that is a
+                            favorite among the female customers. Its taste starts a day
+                            and gives you a head start.
+						</p>
+                        <div class="shop-item-details">
+						<h6 class="shop-item-price">₱226</h6>
+						<ul>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+						</ul>
+						<button class="shop-item-button">Add to Cart</button>
+                        </div>
+					</div>
+
+					<div class="content shop-item">
+						<img class="shop-item-image" src="images/filtercoffee.jpg">
+						<h3 class="shop-item-title">Filter Coffee</h3>
+						<p> Do you just want to chill back and get
+                            something worth drinking? Filter coffee achieves the
+                            aesthetic for a traditional coffee and its taste as well.
+						</p>
+                        <div class="shop-item-details">
+						<h6 class="shop-item-price">₱282</h6>
+						<ul>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star checked"></i></li>
+							<li><i class="fa fa-star"></i></li>
+						</ul>
+						<button class="shop-item-button">Add to Cart</button>
+                        </div>
+					</div>
+				</div>
+			</div>
+
+        <!-- Content for Cold Coffee tab -->
+        <div id="tabContent-2" class="tab-content">
+            <p class="shop-tab-description">These are the available Products for Cold Coffee.</p>
+            <div class="gallery">
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/veganshake.jpg">
+                    <h3 class="shop-item-title">Vegan Shake</h3>
+                    <p>  A refreshing drink for a hot summer day. A
+                        healthy drink for those in need to quench your thirst.                         
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱113</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/coldcoffee.jpg">
+                    <h3 class="shop-item-title">Cold Coffee</h3>
+                    <p>  This drink is perfect for a hot day to boost
+                        productivity and accomplish that one task you've been
+                        putting off.                        
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱113</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star-half-o checked"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/coldmocha.png">
+                    <h3 class="shop-item-title">Cold Mocha</h3>
+                    <p>  A sweet drink to cheer you up on a
+                        particularly rough day 
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱225</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/solasicetea.jpg">
+                    <h3 class="shop-item-title">Sola Iced Tea</h3>
+                    <p> Brew 'n Brew sells different flavors
+                        Description: If you aren't a coffee person, it's alright! Brew
+                        'n Brew has different flavors of Sola Iced Tea. 
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱95</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/coldlatte.jpg">
+                    <h3 class="shop-item-title">Chilled Latte</h3>
+                    <p> A perfect drink to start your day. 
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱113</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/belgianchocolate.jpg">
+                    <h3 class="shop-item-title">Belgian Chocolate</h3>
+                    <p> A chocolate drink to start the day and will make your day a little better.
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱113</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/crunchyfrappe.jpg">
+                    <h3 class="shop-item-title">Crunchy Frappe</h3>
+                    <p> A sweet foamy coffee with oreos that would give you a 
+                        sweet release of satisfaction just from buying it. 
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱170</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/chocolateshake.jpg">
+                    <h3 class="shop-item-title">Chocolate Shake</h3>
+                    <p>  Drizzled with chocolate syrup, this
+                        chocolate shake is both decadent, creamy, and delicious. 
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱226</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content for Snacks tab -->
+        <div id="tabContent-3" class="tab-content">
+            <p class="shop-tab-description">These are the available Products for Snacks.</p>
+            <div class="gallery">
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/sandwich.jpg">
+                    <h3 class="shop-item-title">Sandwich</h3>
+                    <p> Made by a really good chef that could make a
+                        mean sandwich it's one of the snack favorites. 
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱85</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/cottagecheese.png">
+                    <h3 class="shop-item-title">Cottage Cheese Sandwhich Fry</h3>
+                    <p>  Want more bang for your peso? Then get
+                        this! It was one of the most asked combos for a sandwich
+                        when someone bought it and said “It's a sandwich like no
+                        other.” thus adding this in our menu.
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱150</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/garlicbread.jpg">
+                    <h3 class="shop-item-title">Garlic Bread</h3>
+                    <p> A classic among customers we just had to
+                        include this bread in our menu! 
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱120</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/breadsticks.jpg">
+                    <h3 class="shop-item-title">Breadsticks</h3>
+                    <p>  Yes it's not free. No free breadsticks in our
+                        coffee shop and yet it gets some sales due to us adding
+                        our “Brewin Style” on the garlic bread.
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱100</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/veggieburger.png">
+                    <h3 class="shop-item-title">Veggie Burger</h3>
+                    <p> An alternative to a healthy version of the
+                        Burger so you can still claim to eat one despite its vegan
+                        appearance.                         
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱120</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/veggiepizza.png">
+                    <h3 class="shop-item-title">Veggie Pizza</h3>
+                    <p>  A very nice alternative to a meaty pizza but
+                        instead of the usual meats to it, it has all the ingredients
+                        that makes this a very healthy.
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱250</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/chickenpockets.png">
+                    <h3 class="shop-item-title">Chicken Pockets</h3>
+                    <p>  A really well prepared chicken that will whisk
+                        away all your worries in a flash. It's very delicious
+                        ingredients are all organic and its recipe is a secret that not
+                        even staff know what it's made of. 
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱150</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="content shop-item">
+                    <img class="shop-item-image" src="images/pitabread.jpg">
+                    <h3 class="shop-item-title">Pita Bread</h3>
+                    <p> A very delicious snack that could carry you through the sorrows that
+                        you're currently experiencing as this was made by our side chef. 
+                    </p>
+                    <div class="shop-item-details">
+                    <h6 class="shop-item-price">₱100</h6>
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content for Dessert tab -->
+        <div id="tabContent-4" class="tab-content">
+                <p class="shop-tab-description">These are the available Products for Dessert.</p>
+                <div class="gallery">
+                    <div class="content shop-item">
+                        <img class="shop-item-image" src="images/cheesecake.png">
+                        <h3 class="shop-item-title">Cheesecake</h3>
+                        <p> A dessert consisting of a thick, creamy filling
+                            of cheese, eggs, and sugar over a thinner crust and
+                            topped with sweet or sometimes salty items to make your
+                            day special. 
+                        </p>
+                        <div class="shop-item-details">
+                        <h6 class="shop-item-price">₱150</h6>
+                        <ul>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <button class="shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="content shop-item">
+                        <img class="shop-item-image" src="images/chocofantasy.jpg">
+                        <h3 class="shop-item-title">Choco Fantasy</h3>
+                        <p>  A Chocolate fantasy is a flourless chocolate
+                            cake that is decadently rich. It does take some time to
+                            make but the results are worth it. It is the perfect cake for
+                            serving at a dinner party or celebrating a special event.                            
+                        </p>
+                        <div class="shop-item-details">
+                        <h6 class="shop-item-price">₱150</h6>
+                        <ul>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                        </ul>
+                        <button class="shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+    
+                    <div class="content shop-item">
+                        <img class="shop-item-image" src="images/brownies.png">
+                        <h3 class="shop-item-title">Brownies</h3>
+                        <p>  A chocolate brownie that will melt your mouth with an 
+                            after taste that would destroy your love for brownies 
+                            as you decide that this could be the most delicious brownie you have 
+                            ever eaten. 
+                        </p>
+                        <div class="shop-item-details">
+                        <h6 class="shop-item-price">₱150</h6>
+                        <ul>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <button class="shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+    
+                    <div class="content shop-item">
+                        <img class="shop-item-image" src="images/chocofudge.jpg">
+                        <h3 class="shop-item-title">Choco Fudge</h3>
+                        <p> A classic when it comes to aa good dessert as it
+                            provides a good meal for happiness. 
+                        </p>
+                        <div class="shop-item-details">
+                        <h6 class="shop-item-price">₱140</h6>
+                        <ul>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <button class="shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="content shop-item">
+                        <img class="shop-item-image" src="images/brewinvanillascoop.png">
+                        <h3 class="shop-item-title">Vanilla Scoop</h3>
+                        <p>  We added a secret ingredient to make this
+                            special. It's a must try coming from us.                             
+                        </p>
+                        <div class="shop-item-details">
+                        <h6 class="shop-item-price">₱226</h6>
+                        <ul>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <button class="shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="content shop-item">
+                        <img class="shop-item-image" src="images/berrycheesecake.png">
+                        <h3 class="shop-item-title">Berry Cheesecake</h3>
+                        <p>  A really tasty treat that you can eat over and
+                            over again it's a very addictive meal that would 
+                            make you wanting more.
+                        </p>
+                        <div class="shop-item-details">
+                        <h6 class="shop-item-price">₱112</h6>
+                        <ul>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                        </ul>
+                        <button class="shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+    
+                    <div class="content shop-item">
+                        <img class="shop-item-image" src="images/strawberrycake.png">
+                        <h3 class="shop-item-title">Strawberry Cake</h3>
+                        <p>  Another tasty treat that yes you can also eat
+                            over and over again this one is more addictive 
+                            than the last i wonder why, buy it to find out. 
+                        </p>
+                        <div class="shop-item-details">
+                        <h6 class="shop-item-price">₱226</h6>
+                        <ul>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <button class="shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+    
+                    <div class="content shop-item">
+                        <img class="shop-item-image" src="images/redvelvetcake.jpg">
+                        <h3 class="shop-item-title">Red Velvet Cake</h3>
+                        <p> A very delicious cake that i'm sure your
+                            friends will appreciate and also your family, or lover, or
+                            boss, or anyone really. 
+                        </p>
+                        <div class="shop-item-details">
+                        <h6 class="shop-item-price">₱282</h6>
+                        <ul>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star checked"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <button class="shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <section>
+        <div class="cartTab">
+            <h2>Shopping Cart</h2>
+            <span class="cart-item cart-header cart-column bro">
+                PRODUCT
+            </span>
+            <span class="cart-price cart-header cart-column bro">
+                PRICE
+            </span>
+            <span class="cart-quantity cart-header cart-column bro">
+                QUANTITY 
+            </span>
+            <hr>
+            <div class="cart-items">
+            </div>
+            <hr>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">₱0</span>
+            </div>
+            <hr>
+            <div class="btn">
+                <button class="btn-close">CLOSE</button>
+                <button class="btn-checkOut">CHECK OUT</button>
+            </div>
+        </div>
+    </section>
+    <a class="uppies" id="go up" href="#">
+        <i class="fa fa-chevron-circle-up"></i>
+    </a>
+</div>
+</body>
+</html>
